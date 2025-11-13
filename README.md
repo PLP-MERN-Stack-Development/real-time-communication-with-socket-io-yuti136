@@ -1,3 +1,60 @@
+Real-Time Chat App
+
+This is a simple real-time chat application built using React (Vite) on the frontend and Socket.io on the backend.
+It supports sending messages instantly between connected users, making it easy to test and expand.
+
+📌 What the App Does
+
+Connects users in real-time
+
+Allows sending and receiving messages instantly
+
+Shows when a user joins or leaves
+
+Helps you understand how Socket.io works with React
+
+▶️ How to Run & Test
+1. Start the Backend
+
+Default port: 5000
+
+cd server
+npm install
+node server.js
+
+
+Your backend will start at:
+
+http://localhost:5000
+
+2. Start the Frontend
+
+Default Vite port: 5173
+
+cd client
+npm install
+npm run dev
+
+
+Your frontend will run at:
+
+http://localhost:5173
+
+🧪 How to Test the Chat
+
+Open your browser and go to:
+
+http://localhost:5173
+
+
+Open another tab, OR use another browser.
+
+Start typing messages from both windows.
+
+Messages will appear instantly across all open tabs.
+
+
+
 # Real-Time Chat Application with Socket.io
 
 This assignment focuses on building a real-time chat application using Socket.io, implementing bidirectional communication between clients and server.
